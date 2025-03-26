@@ -1,8 +1,14 @@
-x = int(input("Digite um valor: "))
+x = int(input("Digite o 1º valor: "))
+y = int(input("Digite o 2º valor: "))
 
-if x > 10:
-    print("valor maior que 10")
+if x < y:
+    x = x + 5
 
 else :
-    print("valor menor ou igual a dez")
+    y = y + 5
+
+if x > y:
+    print(x," é maior que ",y)
+else:
+    print(y," é maior que ",x)
 
